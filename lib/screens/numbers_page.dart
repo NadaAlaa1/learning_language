@@ -72,8 +72,8 @@ class NumbersPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff46322B),
-        title: Text(
+        backgroundColor: const Color(0xff46322B),
+        title: const Text(
           'Numbers',
           style: TextStyle(
             fontSize: 25,

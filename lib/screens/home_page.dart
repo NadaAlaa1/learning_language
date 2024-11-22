@@ -11,10 +11,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffFEF6DB),
+      backgroundColor: const Color(0xffFEF6DB),
       appBar: AppBar(
-        backgroundColor: Color(0xff46322B),
-        title: Text(
+        backgroundColor: const Color(0xff46322B),
+        title: const Text(
           'Toku',
           style: TextStyle(
             fontSize: 25,
@@ -27,11 +27,11 @@ class HomePage extends StatelessWidget {
           Category(
             onTap: (){
               Navigator.push(context, MaterialPageRoute(builder: (BuildContext context){
-                return NumbersPage();
+                return const NumbersPage();
               })); 
             },
             text: "Numbers",
-            color: Color(0xffEF9235),
+            color: const Color(0xffEF9235),
           ),
           Category(
             onTap: () {
@@ -40,16 +40,16 @@ class HomePage extends StatelessWidget {
               }));
             },
             text: 'Family Members',
-            color: Color(0xff558B37),
+            color: const Color(0xff558B37),
           ),
           Category(
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return ColorsPage();
+                return const ColorsPage();
               }));
             },
             text: 'Colors',
-            color: Color(0xff79359F),
+            color: const Color(0xff79359F),
           ),
           Category(
             onTap: () {
@@ -58,7 +58,7 @@ class HomePage extends StatelessWidget {
               }));
             },
             text: 'Phrases',
-            color: Color(0xff50ADC7),
+            color: const Color(0xff50ADC7),
           ),
         ],
       ),

@@ -3,7 +3,7 @@ import 'package:learning_language/models/item.dart';
 import '../components/phrase_item.dart';
 
 class PhrasesPage extends StatelessWidget {
-  const PhrasesPage({Key? key}) : super(key: key);
+  const PhrasesPage({super.key});
 
   final List<ItemModel> phrasesList = const [
     ItemModel(

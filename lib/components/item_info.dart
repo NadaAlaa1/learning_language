@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/item.dart';
 
 class ItemInfo extends StatelessWidget {
-  const ItemInfo({Key? key, required this.item}) : super(key: key);
+  const ItemInfo({super.key, required this.item});
 
   final ItemModel item;
   @override

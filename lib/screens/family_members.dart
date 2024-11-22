@@ -3,7 +3,7 @@ import 'package:learning_language/components/list_item.dart';
 import 'package:learning_language/models/item.dart';
 
 class FamilyMembersPage extends StatelessWidget {
-  const FamilyMembersPage({Key? key}) : super(key: key);
+  const FamilyMembersPage({super.key});
 
   final List<ItemModel> numbers = const [
     ItemModel(

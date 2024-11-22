@@ -4,10 +4,10 @@ import 'item_info.dart';
 
 class ListItem extends StatelessWidget {
   const ListItem({
-    Key? key,
+    super.key,
     required this.item,
     required this.color,
-  }) : super(key: key);
+  });
   final ItemModel item;
 
   final Color color;
